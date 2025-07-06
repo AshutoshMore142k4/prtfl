@@ -7,6 +7,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 export default defineConfig({
+  base: '/prtfl/', // Add this line for GitHub Pages deployment
   build: {
     sourcemap: true,
     rollupOptions: {
